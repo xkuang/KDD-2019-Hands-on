@@ -2,7 +2,9 @@ Learning Graph Neural Networks with Deep Graph Library -- KDD'19 hands-on tutori
 ===
 
 Presenters: Minjie Wang, Lingfan Yu, Da Zheng, Nick Choma
+
 Opening speaker: Alex Smola
+
 Time: Wed, August 07, 2019, 1:30 pm - 4:30 pm
 
 Abstract
@@ -37,10 +39,10 @@ Agenda
 | Time | Session | Slides | Notebooks |
 | --- | --- | --- | --- |
 | 1:30-1:50 | Opening talk | | n/a |
-| 1:50-2:00 | DGL 101 | links | n/a |
-| 2:00-2:30 | Semi-supervised Community Detection using Graph Convolutional Network | links | links |
-| 2:30-3:30 | Hierarchical Clustering with Graph Neural Networks and DGL | links | links |
-| 3:30-4:30 | Building Recommender Systems using Graph Neural Networks | links | links |
+| 1:50-2:00 | DGL 101 | link | n/a |
+| 2:00-2:30 | Semi-supervised Community Detection using Graph Convolutional Network | link | [link](https://github.com/dglai/KDD-2019-Hands-on/tree/master/1_community_detection) |
+| 2:30-3:30 | Hierarchical Clustering with Graph Neural Networks and DGL | [link](https://github.com/dglai/KDD-2019-Hands-on/blob/master/2_hier_clustering/201906_dgl_hicl_kdd.pdf) | [link](https://github.com/dglai/KDD-2019-Hands-on/blob/master/2_hier_clustering/gnn_clustering_dgl.ipynb) |
+| 3:30-4:30 | Building Recommender Systems using Graph Neural Networks | link | [link](https://github.com/dglai/KDD-2019-Hands-on/blob/master/3_recommender_system/Recommendation.ipynb) |
 
 Community
 ---
