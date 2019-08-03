@@ -31,20 +31,22 @@ clustering and building recommender system using GNNs.
 Prerequisite
 ---
 
-TBD
+Basic understanding of Machine Learning and Deep Learning. Have experience with
+either Pytorch or Apache MXNet.
 
 Agenda
 ---
 
 | Time | Session | Slides | Notebooks |
 | --- | --- | --- | --- |
-| 1:30-1:50 | Opening talk | | n/a |
-| 1:50-2:00 | DGL 101 | link | n/a |
-| 2:00-2:30 | Semi-supervised Community Detection using Graph Convolutional Network | link | [link](https://github.com/dglai/KDD-2019-Hands-on/tree/master/1_community_detection) |
-| 2:30-3:30 | Hierarchical Clustering with Graph Neural Networks and DGL | [link](https://github.com/dglai/KDD-2019-Hands-on/blob/master/2_hier_clustering/201906_dgl_hicl_kdd.pdf) | [link](https://github.com/dglai/KDD-2019-Hands-on/blob/master/2_hier_clustering/gnn_clustering_dgl.ipynb) |
-| 3:30-4:30 | Building Recommender Systems using Graph Neural Networks | link | [link](https://github.com/dglai/KDD-2019-Hands-on/blob/master/3_recommender_system/Recommendation.ipynb) |
+| 1:30-2:00 | Opening talk | | n/a |
+| 2:00-2:15 | DGL 101 | link | n/a |
+| 2:15-2:45 | Semi-supervised Community Detection using Graph Convolutional Network | link | [link](https://github.com/dglai/KDD-2019-Hands-on/tree/master/1_community_detection) |
+| 2:45-3:30 | Scalable Clustering with Graph Neural Networks using DGL | [link](https://github.com/dglai/KDD-2019-Hands-on/blob/master/2_clustering/gnn_clustering.pdf) | [link](https://github.com/dglai/KDD-2019-Hands-on/blob/master/2_clustering/gnn_cluster.ipynb) |
+| 3:30-3:45 | Coffee Break | n/a | n/a |
+| 3:45-4:30 | Building Recommender Systems using Graph Neural Networks | link | [link](https://github.com/dglai/KDD-2019-Hands-on/blob/master/3_recommender_system/Recommendation.ipynb) |
 
 Community
 ---
 
-TBD
+Join our Slack using this [invitation link](https://join.slack.com/t/deep-graph-library/shared_invite/enQtNzE1NDE3MTI5NjgwLWNkZjkxNzAzNzdmOTE2NDczZGNiODMyOTdiYmU4NWM2YWI5OWRjNzIxMGU1ZGI1NTRjOTJmY2YyOGRhY2Y2OGQ) (expired in a week). Jumpy to the `kdd19-tutorial` channel for community meetup!
