@@ -94,6 +94,11 @@ class MovieLens(object):
         self.generate_mask()
         self.generate_candidates()
         
+        # Construct the training subgraph.
+        train_eid = self.g.filter_edges(lambda edges: edges.data['train']).astype('int64')
+        self.g_train = self.g.edge_subgraph(train_eid, preserve_nodes=True)
+        self.g_train.copy_from_parent()
+
     # Change this field to 'timestamp' to perform a user-based temporal split of the dataset,
     # where the ratings of each users are ordered by timestamps.  The first 80% of the ordered
     # data falls into the training set, and the middle 10% and last 10% goes to validation and
