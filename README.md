@@ -1,7 +1,7 @@
 Learning Graph Neural Networks with Deep Graph Library -- KDD'19 hands-on tutorial
 ===
 
-Presenters: Minjie Wang, Lingfan Yu, Da Zheng, Nick Choma
+Presenters: Minjie Wang, Lingfan Yu, Da Zheng, Nicholas Choma
 
 Opening speaker: Alex Smola
 
@@ -37,14 +37,13 @@ either Pytorch or Apache MXNet.
 Agenda
 ---
 
-| Time | Session | Slides | Notebooks |
-| --- | --- | --- | --- |
-| 1:30-2:00 | Opening talk | | n/a |
-| 2:00-2:15 | DGL 101 | link | n/a |
-| 2:15-2:45 | Semi-supervised Community Detection using Graph Convolutional Network | link | [link](https://github.com/dglai/KDD-2019-Hands-on/tree/master/1_community_detection) |
-| 2:45-3:30 | Scalable Clustering with Graph Neural Networks using DGL | [link](https://github.com/dglai/KDD-2019-Hands-on/blob/master/2_clustering/gnn_clustering.pdf) | [link](https://github.com/dglai/KDD-2019-Hands-on/blob/master/2_clustering/gnn_cluster.ipynb) |
-| 3:30-3:45 | Coffee Break | n/a | n/a |
-| 3:45-4:30 | Building Recommender Systems using Graph Neural Networks | link | [link](https://github.com/dglai/KDD-2019-Hands-on/blob/master/3_recommender_system/Recommendation.ipynb) |
+| Time | Session | Slides | Notebooks | Presenter |
+| --- | --- | --- | --- | -- |
+| 1:30-2:00 | Opening talk | - | - | Alex Smola |
+| 2:00-2:45 | DGL 101<br>(Hands-on)Semi-supervised Community Detection using Graph Convolutional Network | [link](https://github.com/dglai/KDD-2019-Hands-on/blob/master/1_community_detection/slides.pptx) | [link](https://github.com/dglai/KDD-2019-Hands-on/tree/master/1_community_detection) | Lingfan Yu |
+| 2:45-3:30 | Scalable Clustering with Graph Neural Networks using DGL<br>(Hands-on) GNNs for clustering TrackML dataset | [link](https://github.com/dglai/KDD-2019-Hands-on/blob/master/2_clustering/gnn_clustering.pdf) | [link](https://github.com/dglai/KDD-2019-Hands-on/blob/master/2_clustering/gnn_cluster.ipynb) | Nicholas Choma / Minjie Wang |
+| 3:30-3:45 | Coffee Break |  |  |
+| 3:45-4:30 | Building Recommender Systems using Graph Neural Networks<br>(Hands-on) Graph Convolutional Matrix Completion for MovieLens | [link](https://github.com/dglai/KDD-2019-Hands-on/blob/master/3_recommender_system/Rec.pptx) | [link](https://github.com/dglai/KDD-2019-Hands-on/blob/master/3_recommender_system/Recommendation.ipynb) | Da Zheng |
 
 Community
 ---
