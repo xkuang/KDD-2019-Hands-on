@@ -177,6 +177,7 @@ class MovieLens(object):
             g.ndata['year'][len(user_ids):len(user_ids) + len(product_ids)] = \
                     nd.from_numpy(self.products['year'].cat.codes.values.astype('int64') + 1)
 
+        '''
         # product title
         print('Parsing title...')
         nlp = stanfordnlp.Pipeline(use_gpu=False, processors='tokenize,lemma')
@@ -198,6 +199,7 @@ class MovieLens(object):
             g.ndata['title'][len(user_ids) + i, [vocab_invmap[w] for w in tw]] = 1
         self.vocab = vocab
         self.vocab_invmap = vocab_invmap
+        '''
         
         rating_user_vertices = [user_ids_invmap[id_] for id_ in self.ratings['user_id'].values]
         rating_product_vertices = [product_ids_invmap[id_] + len(user_ids)
