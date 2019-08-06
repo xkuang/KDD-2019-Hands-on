@@ -2,7 +2,6 @@ import os
 import pandas as pd
 import numpy as np
 import re
-import stanfordnlp
 import string
 import tqdm
 from functools import partial
